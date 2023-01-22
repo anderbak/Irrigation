@@ -1,0 +1,15 @@
+Ref, Value, Datasheet, Digikey Link, Footprint
+R1,100K,https://www.seielect.com/Catalog/SEI-CF_CFM.pdf,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT100K/1741263,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+C1,1000pF,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RCE_X7R_X7S_25V-100V_E.pdf,https://www.digikey.com/en/products/detail/murata-electronics/RCER71H102K0DBH03A/4277134,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm
+C3,47uF,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf,https://www.digikey.com/en/products/detail/murata-electronics/RDEC71E476MWK1H03B/4906197,SnapEDA Library:CAP_RDEC71E476MWK1H03B
+BR1,KBP206G,https://www.diodes.com/assets/Datasheets/ds21205.pdf,https://www.digikey.com/en/products/detail/diodes-incorporated/KBP206G/278624,SnapEDA Library:KBP206G
+U1,L7812,http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf,https://www.digikey.com/en/products/detail/stmicroelectronics/L7812CV/585973,SnapEDA Library:TO255P1040X460X1968-3
+C2,47uF,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf,https://www.digikey.com/en/products/detail/murata-electronics/RDEC71E476MWK1H03B/4906197,SnapEDA Library:CAP_RDEC71E476MWK1H03B
+J3,Relay Board,https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf,https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC102LFBN-RC/807245,SnapEDA Library:SULLINS_PPPC102LFBN-RC
+U5,MCP23016-I_SP,https://ww1.microchip.com/downloads/en/DeviceDoc/20090C.pdf,https://www.digikey.com/en/products/detail/microchip-technology/MCP23016-I-SP/551891,SnapEDA Library:DIP787W46P254L3467H508Q28
+R2,3.9K,https://www.seielect.com/Catalog/SEI-CF_CFM.pdf,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT3K90/1741386,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+C4,33pF,https://content.kemet.com/datasheets/KEM_C1049_GOLDMAX_C0G.pdf,https://www.digikey.com/en/products/detail/kemet/C315C330K2G5TA/3726026,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm
+U3,ESP-01,https://www.microchip.ua/wireless/esp01.pdf,,SnapEDA Library:ESP-01
+J2,Relay Board,https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf,https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC031LFBN-RC/810175,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+J1,AC In/Out,https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mpt-05-4-254-1725672?type=pdf,https://www.digikey.com/en/products/detail/phoenix-contact/1725672/267464,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
+U4,LD1117V33,https://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf,https://www.digikey.com/en/products/detail/stmicroelectronics/LD1117V33/586012,SnapEDA Library:TO255P1020X450X1968-3

@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Brian\Documents\KiCad\Sprinkler\Irrigation\Irrigation\Irrigation.sch</source>
+    <date>1/21/2023 2:08:01 PM</date>
+    <tool>Eeschema (5.1.12)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Irrigation.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT100K/1741263</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6396E5DD</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1000pF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RCE_X7R_X7S_25V-100V_E.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/en/products/detail/murata-electronics/RCER71H102K0DBH03A/4277134</field>
+      </fields>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6396DDBB</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>47uF</value>
+      <footprint>SnapEDA Library:CAP_RDEC71E476MWK1H03B</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/en/products/detail/murata-electronics/RDEC71E476MWK1H03B/4906197</field>
+      </fields>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63971857</tstamp>
+    </comp>
+    <comp ref="BR1">
+      <value>KBP206G</value>
+      <footprint>SnapEDA Library:KBP206G</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds21205.pdf</datasheet>
+      <fields>
+        <field name="Arrow_Part_Number">KBP206G</field>
+        <field name="Arrow_Price-Stock">https://www.arrow.com/en/products/kbp206g/diodes-incorporated?region=nac</field>
+        <field name="Description">Diodes Inc KBP206G, Bridge Rectifier, 2A 600V, 4-Pin KBP</field>
+        <field name="Digikey Link">https://www.digikey.com/en/products/detail/diodes-incorporated/KBP206G/278624</field>
+        <field name="Height">mm</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">KBP206G</field>
+        <field name="Mouser_Part_Number">621-KBP206G</field>
+        <field name="Mouser_Price-Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/KBP206G?qs=zpnZCIghiEzeMWPzAF%2FQmA%3D%3D</field>
+      </fields>
+      <libsource lib="KBP206G" part="KBP206G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639AC47B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>L7812</value>
+      <footprint>SnapEDA Library:TO255P1040X460X1968-3</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/en/products/detail/stmicroelectronics/L7812CV/585973</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L7812" description="Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639B5F03</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>47uF</value>
+      <footprint>SnapEDA Library:CAP_RDEC71E476MWK1H03B</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/en/products/detail/murata-electronics/RDEC71E476MWK1H03B/4906197</field>
+      </fields>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639B8AD5</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Relay Board</value>
+      <footprint>SnapEDA Library:SULLINS_PPPC102LFBN-RC</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC102LFBN-RC/807245</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x10_Odd_Even" description="Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639D45C3</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MCP23016-I_SP</value>
+      <footprint>SnapEDA Library:DIP787W46P254L3467H508Q28</footprint>
+      <datasheet>https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/en/products/detail/microchip-technology/MCP23016-I-SP/551891</field>
+      </fields>
+      <libsource lib="MCP23016-I_SP" part="MCP23016-I_SP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639DCBAA</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>3.9K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT3K90/1741386</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639E24FD</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>33pF</value>
+      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1049_GOLDMAX_C0G.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/en/products/detail/kemet/C315C330K2G5TA/3726026</field>
+      </fields>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639E3FDA</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ESP-01</value>
+      <footprint>SnapEDA Library:ESP-01</footprint>
+      <datasheet>https://www.microchip.ua/wireless/esp01.pdf</datasheet>
+      <libsource lib="ESP-01" part="ESP-01" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639EC282</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Relay Board</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC031LFBN-RC/810175</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639B9CD7</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>AC In/Out</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal</footprint>
+      <datasheet>https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mpt-05-4-254-1725672?type=pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/en/products/detail/phoenix-contact/1725672/267464</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639BE599</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LD1117V33</value>
+      <footprint>SnapEDA Library:TO255P1020X450X1968-3</footprint>
+      <datasheet>https://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/en/products/detail/stmicroelectronics/LD1117V33/586012</field>
+        <field name="MANUFACTURER">ST Microelectronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">19.68mm</field>
+        <field name="PARTREV">37</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="LD1117V33" part="LD1117V33" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639756DE</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x10_Odd_Even">
+      <description>Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x10_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP-01" part="ESP-01">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP-01</field>
+        <field name="Footprint">SnapEDA Library:ESP-01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="BiDi"/>
+        <pin num="2" name="GND" type="BiDi"/>
+        <pin num="3" name="PD" type="BiDi"/>
+        <pin num="4" name="GPIO2" type="BiDi"/>
+        <pin num="5" name="RST" type="BiDi"/>
+        <pin num="6" name="GPIO0" type="BiDi"/>
+        <pin num="7" name="VCC" type="BiDi"/>
+        <pin num="8" name="RXD" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="KBP206G" part="KBP206G">
+      <fields>
+        <field name="Reference">BR</field>
+        <field name="Value">KBP206G</field>
+        <field name="Footprint">SnapEDA Library:KBP206G</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Mouser_Part_Number">621-KBP206G</field>
+        <field name="Mouser_Price-Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/KBP206G?qs=zpnZCIghiEzeMWPzAF%2FQmA%3D%3D</field>
+        <field name="Description">Diodes Inc KBP206G, Bridge Rectifier, 2A 600V, 4-Pin KBP</field>
+        <field name="Height">mm</field>
+        <field name="Arrow_Part_Number">KBP206G</field>
+        <field name="Arrow_Price-Stock">https://www.arrow.com/en/products/kbp206g/diodes-incorporated?region=nac</field>
+        <field name="Manufacturer_Part_Number">KBP206G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="BiDi"/>
+        <pin num="2" name="~_1" type="BiDi"/>
+        <pin num="3" name="~_2" type="BiDi"/>
+        <pin num="4" name="-" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="LD1117V33" part="LD1117V33">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117V33</field>
+        <field name="Footprint">SnapEDA Library:TO255P1020X450X1968-3</field>
+        <field name="PARTREV">37</field>
+        <field name="MANUFACTURER">ST Microelectronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">19.68mm</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ/GND" type="passive"/>
+        <pin num="2" name="VOUT" type="output"/>
+        <pin num="3" name="VIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCP23016-I_SP" part="MCP23016-I_SP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP23016-I_SP</field>
+        <field name="Footprint">SnapEDA Library:DIP787W46P254L3467H508Q28</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="GP1.0" type="BiDi"/>
+        <pin num="3" name="GP1.1" type="BiDi"/>
+        <pin num="4" name="GP1.2" type="BiDi"/>
+        <pin num="5" name="GP1.3" type="BiDi"/>
+        <pin num="6" name="~INT" type="output"/>
+        <pin num="7" name="GP1.4" type="BiDi"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="CLK" type="input"/>
+        <pin num="10" name="TP" type="input"/>
+        <pin num="11" name="GP1.5" type="BiDi"/>
+        <pin num="12" name="GP1.6" type="BiDi"/>
+        <pin num="13" name="GP1.7" type="BiDi"/>
+        <pin num="14" name="SCL" type="input"/>
+        <pin num="15" name="SDA" type="BiDi"/>
+        <pin num="16" name="A0" type="input"/>
+        <pin num="17" name="A1" type="input"/>
+        <pin num="18" name="A2" type="input"/>
+        <pin num="19" name="VSS" type="power_in"/>
+        <pin num="20" name="VDD" type="power_in"/>
+        <pin num="21" name="GP0.0" type="BiDi"/>
+        <pin num="22" name="GP0.1" type="BiDi"/>
+        <pin num="23" name="GP0.2" type="BiDi"/>
+        <pin num="24" name="GP0.3" type="BiDi"/>
+        <pin num="25" name="GP0.4" type="BiDi"/>
+        <pin num="26" name="GP0.5" type="BiDi"/>
+        <pin num="27" name="GP0.6" type="BiDi"/>
+        <pin num="28" name="GP0.7" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="CAP">
+      <aliases>
+        <alias>C</alias>
+      </aliases>
+      <description>Capacitor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="ESP-01">
+      <uri>C:/Users/Brian/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library/ESP-01.lib</uri>
+    </library>
+    <library logical="KBP206G">
+      <uri>C:/Users/Brian/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library/KBP206G.lib</uri>
+    </library>
+    <library logical="LD1117V33">
+      <uri>C:/Users/Brian/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library/LD1117V33.lib</uri>
+    </library>
+    <library logical="MCP23016-I_SP">
+      <uri>C:/Users/Brian/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library/MCP23016-I_SP.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\share\kicad\library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J3" pin="20"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U5" pin="18"/>
+      <node ref="U5" pin="16"/>
+      <node ref="U5" pin="17"/>
+      <node ref="U4" pin="1"/>
+      <node ref="J3" pin="19"/>
+      <node ref="BR1" pin="4"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U5" pin="19"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="J3" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="J3" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="4" name="Net-(U5-Pad20)">
+      <node ref="U5" pin="20"/>
+    </net>
+    <net code="5" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="6" name="D5">
+      <node ref="U5" pin="2"/>
+      <node ref="J3" pin="11"/>
+    </net>
+    <net code="7" name="D6">
+      <node ref="U5" pin="3"/>
+      <node ref="J3" pin="13"/>
+    </net>
+    <net code="8" name="D7">
+      <node ref="J3" pin="15"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="9" name="D8">
+      <node ref="U5" pin="5"/>
+      <node ref="J3" pin="17"/>
+    </net>
+    <net code="10" name="D1">
+      <node ref="J3" pin="3"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="11" name="D2">
+      <node ref="J3" pin="5"/>
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="12" name="D3">
+      <node ref="U5" pin="12"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="13" name="D4">
+      <node ref="J3" pin="9"/>
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="14" name="Net-(U5-Pad10)">
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="15" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="16" name="Net-(BR1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="BR1" pin="2"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="17" name="Net-(BR1-Pad3)">
+      <node ref="BR1" pin="3"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="19" name="+3V3">
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="7"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="20" name="Net-(U3-Pad8)">
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="21" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="22" name="+24V">
+      <node ref="BR1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="23" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="24" name="GPIO2">
+      <node ref="U3" pin="4"/>
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="25" name="D9">
+      <node ref="J3" pin="4"/>
+      <node ref="U5" pin="21"/>
+    </net>
+    <net code="26" name="D10">
+      <node ref="J3" pin="6"/>
+      <node ref="U5" pin="22"/>
+    </net>
+    <net code="27" name="D11">
+      <node ref="U5" pin="23"/>
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="28" name="D12">
+      <node ref="J3" pin="10"/>
+      <node ref="U5" pin="24"/>
+    </net>
+    <net code="29" name="D13">
+      <node ref="J3" pin="12"/>
+      <node ref="U5" pin="25"/>
+    </net>
+    <net code="30" name="D14">
+      <node ref="J3" pin="14"/>
+      <node ref="U5" pin="26"/>
+    </net>
+    <net code="31" name="D15">
+      <node ref="U5" pin="27"/>
+      <node ref="J3" pin="16"/>
+    </net>
+    <net code="32" name="D16">
+      <node ref="U5" pin="28"/>
+      <node ref="J3" pin="18"/>
+    </net>
+    <net code="33" name="GPIO0">
+      <node ref="U5" pin="15"/>
+      <node ref="U3" pin="6"/>
+    </net>
+  </nets>
+</export>
