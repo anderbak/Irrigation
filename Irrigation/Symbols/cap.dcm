@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C
+D Capacitor symbol for simulation only
+K simulation
+F ~
+$ENDCMP
+#
+$CMP CAP
+D Capacitor symbol for simulation only
+K simulation
+F ~
+$ENDCMP
+#
+#End Doc Library

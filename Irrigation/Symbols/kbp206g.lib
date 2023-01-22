@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# KBP206G
+#
+DEF KBP206G BR 0 40 Y Y 1 L N
+F0 "BR" 750 300 50 H V L BNN
+F1 "KBP206G" 750 200 50 H V L BNN
+F2 "SnapEDA Library:KBP206G" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Diodes Inc." 0 0 50 H I L BNN "Manufacturer_Name"
+F5 "621-KBP206G" 0 0 50 H I L BNN "Mouser_Part_Number"
+F6 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/KBP206G?qs=zpnZCIghiEzeMWPzAF%2FQmA%3D%3D" 0 0 50 H I L BNN "Mouser_Price-Stock"
+F7 "Diodes Inc KBP206G, Bridge Rectifier, 2A 600V, 4-Pin KBP" 0 0 50 H I L BNN "Description"
+F8 "mm" 0 0 50 H I L BNN "Height"
+F9 "KBP206G" 0 0 50 H I L BNN "Arrow_Part_Number"
+F10 "https://www.arrow.com/en/products/kbp206g/diodes-incorporated?region=nac" 0 0 50 H I L BNN "Arrow_Price-Stock"
+F11 "KBP206G" 0 0 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+S 283 -400 783 100 0 0 10 f
+P 2 0 0 10 200 100 200 -400 N
+X + 1 0 0 200 R 40 40 0 0 B
+X ~_1 2 0 -100 200 R 40 40 0 0 B
+X ~_2 3 0 -200 200 R 40 40 0 0 B
+X - 4 0 -300 200 R 40 40 0 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library
