@@ -1,5 +1,7 @@
 # Irrigation
 
-16 Channel ESPHome Irrigation Controller designed with KiCad v5
+ESPHome 16 Channel Irrigation Controller designed with KiCad v5
 
-Built on top of Sain Smart 16 Channel Relay Module https://www.uctronics.com/download/Amazon/U604302_print.pdf
+https://selfhostedhome.com/diy-wifi-sprinkler-controller-using-esp8266-part-1/
+https://www.instructables.com/IO-Expander-for-ESP32-ESP8266-and-Arduino/
+https://esphome.io/components/sprinkler.html
